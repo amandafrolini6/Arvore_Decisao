@@ -10,29 +10,32 @@ Decisão final → folha
 
 O modelo aprende com dados de treinamento, criando divisões que separam melhor os exemplos.
 
-Estrutura:
+---------------------------------------------------------------------------------------------
+
+## Estrutura:
 
 Raiz: primeira decisão
 Nós internos: novas perguntas
 Folhas: resultado final
-⚙️ Como aprende?
+
+## ⚙️ Como aprende?
 
 Testa diferentes divisões e escolhe a melhor com base em:
 
 Gini
 Entropia
-
+-------------------------------------------------------------------------------------------
 Objetivo: reduzir a incerteza.
 
-📊 Tipos
+## 📊 Tipos 
 Classificação: categorias (Sim/Não)
-Regressão: valores numéricos
+Regressão: valores numéricos <br>
 👍 Vantagens
 Fácil de entender
-Funciona com vários tipos de dados
+Funciona com vários tipos de dados <br>
 👎 Desvantagens
 Pode sofrer overfitting
-Sensível a mudanças nos dados
+Sensível a mudanças nos dados <br>
 🌲 Exemplo
 
 Está chovendo?
@@ -41,9 +44,10 @@ Está chovendo?
   → Sim: não correr
   → Não: correr
 
-🚀 Extensões
+## 🚀 Extensões
 Random Forest
-Gradient Boosting
-📚 Conclusão
+Gradient Boosting <br>
+
+## 📚 Conclusão
 
 É um modelo simples, interpretável e ótimo para começar em aprendizado de máquina.
